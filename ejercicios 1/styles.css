@@ -82,7 +82,18 @@ body{
     
 }
 
-
+.formulario button{
+    background-color: #e4d0b6;
+    border: none;
+    color: #583421;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
 
 

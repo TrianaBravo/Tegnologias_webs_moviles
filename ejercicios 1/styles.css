@@ -6,8 +6,8 @@ h1,h2,p{
 }
 
 body{
-    background-color: #ede1d2;
-    color: #583421;
+    background-color: #d3d2ed;
+    color: #292158;
 
 }
 .formulario{
@@ -24,7 +24,7 @@ body{
 .formulario .identificacion{
     text-align: center;
     margin: 20px 20px 20px 20px;
-    border: 2px solid #e4d0b6;
+    border: 2px solid #292158;
     border-radius: 5px;
     width: 650px;
 }
@@ -33,7 +33,7 @@ body{
 .formulario .datos{
     text-align: center;
     margin: 20px 20px 20px 20px;
-    border: 2px solid #e4d0b6;
+    border: 2px solid #292158;
     border-radius: 5px;
     width: 650px;
 }
@@ -50,9 +50,9 @@ body{
 }
 
 .botones button{
-    background-color: #e4d0b6;
+    background-color: #d3d2ed;
     border: none;
-    color: #583421;
+    color: #292158;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;
@@ -69,23 +69,23 @@ body{
 .formulario .identificacion input, .formulario .identificacion select{
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid #c9b397;
-    color: #583421;
+    border: 1px solid #292158;
+    color: #232158;
     width: 300px;
 }
 
 .formulario .datos input, .formulario .datos select{
     padding: 5px;
     border-radius: 5px;
-    border: 1px solid #c9b397;
-    color: #583421;
+    border: 1px solid #292158;
+    color: #292158;
     
 }
 
 .formulario button{
-    background-color: #e4d0b6;
+    background-color: #d3d2ed;
     border: none;
-    color: #583421;
+    color: #292158;
     padding: 10px 20px;
     text-align: center;
     text-decoration: none;

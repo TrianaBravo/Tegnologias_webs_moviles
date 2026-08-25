@@ -1,0 +1,119 @@
+<!DOCTYPE html> 
+<html lang="es">
+    <head charset="UTF-8">
+        <title>Formulario</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--    conexion css-->
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <title>Formulario</title>   
+    </head>
+
+    <body>
+        <h1>Formulario </h1>
+        <p>Por favor, complete el siguiente formulario con sus datos personales y académicos.</p>
+        
+        <main class="formulario">
+        <form action="done.html" method="get"> 
+
+            <!-- Identificacion del Alumno -->
+            <h2>Identificación del Alumno</h2>
+            <div class="identificacion">
+                <label for="nombre">Nombres:</label><br><br>
+                <input 
+                    type="text"
+                    id="nombre" 
+                    name="nombre" 
+                    autocomplete="name" 
+                    required
+                    placeholder="EJ: Jesus Manuel"
+                    ><br><br>
+
+                <label for="apellido">Apellidos:</label><br><br>
+                <input 
+                    type="text" 
+                    id="apellido" 
+                    name="apellido" 
+                    required
+                    placeholder="EJ: Pérez González"
+                    ><br><br>
+
+                <label for="Rut">RUT:</label><br><br>
+                <input 
+                    type="text" 
+                    id="rut" 
+                    inputmode="numeric" 
+                    maxlength="12" 
+                    name="rut" 
+                    placeholder="EJ: 12.345.678-9"
+                    required><br><br>
+
+                <label for="email">Correo electrónico:</label><br><br>
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    autocomplete="email" 
+                    required
+                    placeholder="EJ: ejemplo@universidad.cl"
+                    ><br><br>
+
+                <label for="telefono">Teléfono:</label><br><br>
+                <input 
+                    type="tel" 
+                    id="telefono" 
+                    name="telefono" 
+                    autocomplete="tel" 
+                    required
+                    placeholder="EJ: 9 1234 5678"
+                    ><br><br>
+                </div>
+
+            <!--Datos academicos-->
+            <h2>Datos Académicos</h2>
+            <div class="datos">
+                <label for="Area">Area:</label>
+                <select id="Area" name="Area" required>
+                    <option value="">Seleccione Area</option>
+                    <option value="ingenierias y ciencias">Ingeniería y Ciencias</option>
+                    <option value="salud">Salud</option>
+                    <option value="humanidades">Humanidades</option>
+                    <option value="administracion y finanzas">Administración y Finanzas</option>
+                    <option value="pedagogias">Pedagogías</option>
+                </select><br><br>
+                <label for="Jornada">Jornada:</label>
+                <input type="radio" id="Jornada" name="Jornada" value="Diurna" required>Diurna
+                <input type="radio" id="Jornada" name="Jornada" value="Vespertina" required>Vespertina<br><br>
+
+                <label for="sede">Sede:</label>
+                <select id="sede" name="sede" required>
+                        <option value="">Seleccione Sede</option>
+                        <option value="Osorno">Osorno</option>
+                        <option value="Chiloe">Chiloe</option>
+                        <option value="Puerto Montt">Puerto Montt</option>
+                        <option value="Santiago">Santiago</option>
+                    </select><br><br>
+            </div>
+
+            <div class="confirmacion">
+                <label for="confirmacion">Acepto vender mi alma a la universidad de los lagos:</label>
+                <input 
+                    type="checkbox" 
+                    id="confirmacion" 
+                    name="confirmacion" 
+                    required><br><br>
+                </div>
+
+            <div class="botones">
+                <button type="submit" >
+                    Enviar
+                    </button>
+                <button type="reset" >
+                    Limpiar
+                    </button>
+                </div>
+
+            </form>
+        </div>
+    </body>
+
+</html>

@@ -1,0 +1,90 @@
+h1,h2,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin: 10px;
+}
+
+body{
+    background-color: #ede1d2;
+    color: #583421;
+
+}
+.formulario{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    width: 700px;
+    margin: 0px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border-style: double;
+    border-width: 5px;
+}
+
+.formulario .identificacion{
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border: 2px solid #e4d0b6;
+    border-radius: 5px;
+    width: 650px;
+}
+
+
+.formulario .datos{
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    border: 2px solid #e4d0b6;
+    border-radius: 5px;
+    width: 650px;
+}
+.confirmacion{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+    width: 650px;
+}
+
+.botones{
+    text-align: center;
+    margin: 20px 20px 20px 20px;
+}
+
+.botones button{
+    background-color: #e4d0b6;
+    border: none;
+    color: #583421;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+:focus-visible{
+    outline: 2px solid #9494b6;
+    
+}
+.formulario .identificacion input, .formulario .identificacion select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #c9b397;
+    color: #583421;
+    width: 300px;
+}
+
+.formulario .datos input, .formulario .datos select{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #c9b397;
+    color: #583421;
+    
+}
+
+
+
+
+
+
+
